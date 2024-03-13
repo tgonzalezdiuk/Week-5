@@ -5,7 +5,7 @@ Program: Java
  */
 
  import java.util.*;
- public Time conversion 
+ public class TimeConversion 
 {
      public static void main(String[] args )
      {
