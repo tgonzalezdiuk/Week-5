@@ -33,13 +33,17 @@ Program: Java
          System.out.print("How many votes did Awbrey get in Connecticut? Press Enter: ");
          int MartinezVotesCN = input.nextInt();
          System.out.println("Candidate\t Votes Percentage\nAwbrey\t\t " + (AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY) + "\nMartinez\t " + (MartinezVotesCN + MartinezVotesNJ + MartinezVotesNY));
-         
+
+         double AwbreyTotalVotes =  (AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY);
+         double MartinezTotalVotes = (MartinezVotesCN + MartinezVotesNJ + MartinezVotesNY)
+      
          double AwbreyPercentage = ((AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY)/(AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY + MartinezVotesCN + MartinezVotesNJ + MartinezVotesNY));
          double MartinezPercentage = ((MartinezVotesCN + MartinezVotesNJ + MartinezVotesNY)/(AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY + MartinezVotesCN + MartinezVotesNJ + MartinezVotesNY));
+         double TotalVotes = (AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY + MartinezVotesCN + MartinezVotesNJ + MartinezVotesNY)
 
-         System.out.print(AwbreyPercentage);
+         System.out.print("Candidate\t Votes Percentage\nAwbrey\t " + AwbreyTotalVotes + AwbreyPercentage + "%\n Martinez\t" + MartinezTotalVotes + MartinezTotalPercentage + "\n Total Votes:\t" + TotalVotes);
 
-         input.close();
+         input.close(); (AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY)
      }
 
  }
