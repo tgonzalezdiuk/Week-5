@@ -43,7 +43,7 @@ Program: Java
 
          System.out.print("Candidate\t Votes Percentage\nAwbrey\t " + AwbreyTotalVotes + AwbreyPercentage + "%\n Martinez\t" + MartinezTotalVotes + MartinezTotalPercentage + "\n Total Votes:\t" + TotalVotes);
 
-         input.close(); (AwbreyVotesCN + AwbreyVotesNJ + AwbreyVotesNY)
+         input.close(); 
      }
 
  }
